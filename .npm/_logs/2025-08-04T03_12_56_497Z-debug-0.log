@@ -1,0 +1,367 @@
+0 verbose cli /usr/local/nvm/versions/node/v22.17.1/bin/node /usr/local/nvm/versions/node/v22.17.1/bin/npm
+1 info using npm@11.5.1
+2 info using node@v22.17.1
+3 silly config load:file:/usr/local/nvm/versions/node/v22.17.1/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/natureskwy/fassto-fn/.npmrc
+5 silly config load:file:/home/natureskwy/.npmrc
+6 silly config load:file:/usr/local/nvm/versions/node/v22.17.1/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install"
+9 verbose logfile logs-max:10 dir:/home/natureskwy/.npm/_logs/2025-08-04T03_12_56_497Z-
+10 verbose logfile /home/natureskwy/.npm/_logs/2025-08-04T03_12_56_497Z-debug-0.log
+11 silly logfile start cleaning logs, removing 3 files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest googleapis@^137.1.0
+16 silly packumentCache full:https://registry.npmjs.org/googleapis cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/googleapis 180ms (cache revalidated)
+18 silly packumentCache full:https://registry.npmjs.org/googleapis set size:970039 disposed:false
+19 silly placeDep ROOT googleapis@137.1.0 REPLACE for: fassto-api-gateway@3.0.0 want: ^137.1.0
+20 silly fetch manifest googleapis-common@^7.0.0
+21 silly packumentCache full:https://registry.npmjs.org/googleapis-common cache-miss
+22 silly fetch manifest google-auth-library@^9.0.0
+23 silly packumentCache full:https://registry.npmjs.org/google-auth-library cache-miss
+24 http fetch GET 200 https://registry.npmjs.org/google-auth-library 68ms (cache revalidated)
+25 silly packumentCache full:https://registry.npmjs.org/google-auth-library set size:693701 disposed:false
+26 http fetch GET 200 https://registry.npmjs.org/googleapis-common 84ms (cache revalidated)
+27 silly packumentCache full:https://registry.npmjs.org/googleapis-common set size:223267 disposed:false
+28 silly placeDep ROOT google-auth-library@9.15.1 OK for: googleapis@137.1.0 want: ^9.0.0
+29 silly placeDep ROOT googleapis-common@7.2.0 OK for: googleapis@137.1.0 want: ^7.0.0
+30 silly fetch manifest jws@^4.0.0
+31 silly packumentCache full:https://registry.npmjs.org/jws cache-miss
+32 silly fetch manifest gaxios@^6.1.1
+33 silly packumentCache full:https://registry.npmjs.org/gaxios cache-miss
+34 http fetch GET 200 https://registry.npmjs.org/jws 60ms (cache revalidated)
+35 silly packumentCache full:https://registry.npmjs.org/jws set size:45532 disposed:false
+36 silly fetch manifest gtoken@^7.0.0
+37 silly packumentCache full:https://registry.npmjs.org/gtoken cache-miss
+38 http fetch GET 200 https://registry.npmjs.org/gaxios 70ms (cache revalidated)
+39 silly packumentCache full:https://registry.npmjs.org/gaxios set size:334347 disposed:false
+40 silly fetch manifest base64-js@^1.3.0
+41 silly packumentCache full:https://registry.npmjs.org/base64-js cache-miss
+42 http fetch GET 200 https://registry.npmjs.org/gtoken 52ms (cache revalidated)
+43 silly packumentCache full:https://registry.npmjs.org/gtoken set size:155604 disposed:false
+44 silly fetch manifest gcp-metadata@^6.1.0
+45 silly packumentCache full:https://registry.npmjs.org/gcp-metadata cache-miss
+46 http fetch GET 200 https://registry.npmjs.org/base64-js 74ms (cache revalidated)
+47 silly packumentCache full:https://registry.npmjs.org/base64-js set size:41270 disposed:false
+48 silly fetch manifest ecdsa-sig-formatter@^1.0.11
+49 silly packumentCache full:https://registry.npmjs.org/ecdsa-sig-formatter cache-miss
+50 http fetch GET 200 https://registry.npmjs.org/gcp-metadata 46ms (cache revalidated)
+51 silly packumentCache full:https://registry.npmjs.org/gcp-metadata set size:182287 disposed:false
+52 silly fetch manifest qs@^6.7.0
+53 silly packumentCache full:https://registry.npmjs.org/qs cache-miss
+54 http fetch GET 200 https://registry.npmjs.org/ecdsa-sig-formatter 32ms (cache revalidated)
+55 silly packumentCache full:https://registry.npmjs.org/ecdsa-sig-formatter set size:23546 disposed:false
+56 silly fetch manifest uuid@^9.0.0
+57 silly packumentCache full:https://registry.npmjs.org/uuid cache-miss
+58 http fetch GET 200 https://registry.npmjs.org/qs 49ms (cache revalidated)
+59 silly packumentCache full:https://registry.npmjs.org/qs set size:264677 disposed:false
+60 silly fetch manifest extend@^3.0.2
+61 silly packumentCache full:https://registry.npmjs.org/extend cache-miss
+62 http fetch GET 200 https://registry.npmjs.org/uuid 62ms (cache revalidated)
+63 silly packumentCache full:https://registry.npmjs.org/uuid set size:215972 disposed:false
+64 silly fetch manifest gaxios@^6.0.3
+65 silly packumentCache full:https://registry.npmjs.org/gaxios cache-hit
+66 silly fetch manifest url-template@^2.0.8
+67 silly packumentCache full:https://registry.npmjs.org/url-template cache-miss
+68 http fetch GET 200 https://registry.npmjs.org/extend 42ms (cache revalidated)
+69 silly packumentCache full:https://registry.npmjs.org/extend set size:25974 disposed:false
+70 http fetch GET 200 https://registry.npmjs.org/url-template 48ms (cache revalidated)
+71 silly packumentCache full:https://registry.npmjs.org/url-template set size:25205 disposed:false
+72 silly placeDep ROOT base64-js@1.5.1 OK for: google-auth-library@9.15.1 want: ^1.3.0
+73 silly placeDep ROOT ecdsa-sig-formatter@1.0.11 OK for: google-auth-library@9.15.1 want: ^1.0.11
+74 silly placeDep ROOT gaxios@6.7.1 OK for: google-auth-library@9.15.1 want: ^6.1.1
+75 silly placeDep ROOT gcp-metadata@6.1.1 OK for: google-auth-library@9.15.1 want: ^6.1.0
+76 silly placeDep ROOT gtoken@7.1.0 OK for: google-auth-library@9.15.1 want: ^7.0.0
+77 silly placeDep ROOT jws@4.0.0 OK for: google-auth-library@9.15.1 want: ^4.0.0
+78 silly fetch manifest safe-buffer@^5.0.1
+79 silly packumentCache full:https://registry.npmjs.org/safe-buffer cache-miss
+80 silly fetch manifest uuid@^9.0.1
+81 silly packumentCache full:https://registry.npmjs.org/uuid cache-hit
+82 silly fetch manifest is-stream@^2.0.0
+83 silly packumentCache full:https://registry.npmjs.org/is-stream cache-miss
+84 http fetch GET 200 https://registry.npmjs.org/is-stream 34ms (cache miss)
+85 silly packumentCache full:https://registry.npmjs.org/is-stream set size:undefined disposed:false
+86 silly fetch manifest node-fetch@^2.6.9
+87 silly packumentCache full:https://registry.npmjs.org/node-fetch cache-miss
+88 http fetch GET 200 https://registry.npmjs.org/safe-buffer 37ms (cache revalidated)
+89 silly packumentCache full:https://registry.npmjs.org/safe-buffer set size:41183 disposed:false
+90 silly fetch manifest https-proxy-agent@^7.0.1
+91 silly packumentCache full:https://registry.npmjs.org/https-proxy-agent cache-miss
+92 http fetch GET 200 https://registry.npmjs.org/https-proxy-agent 32ms (cache revalidated)
+93 silly packumentCache full:https://registry.npmjs.org/https-proxy-agent set size:76222 disposed:false
+94 silly fetch manifest json-bigint@^1.0.0
+95 silly packumentCache full:https://registry.npmjs.org/json-bigint cache-miss
+96 http fetch GET 200 https://registry.npmjs.org/json-bigint 34ms (cache revalidated)
+97 silly packumentCache full:https://registry.npmjs.org/json-bigint set size:36963 disposed:false
+98 silly fetch manifest google-logging-utils@^0.0.2
+99 silly packumentCache full:https://registry.npmjs.org/google-logging-utils cache-miss
+100 http fetch GET 200 https://registry.npmjs.org/google-logging-utils 32ms (cache revalidated)
+101 silly packumentCache full:https://registry.npmjs.org/google-logging-utils set size:17057 disposed:false
+102 silly fetch manifest jwa@^2.0.0
+103 silly packumentCache full:https://registry.npmjs.org/jwa cache-miss
+104 http fetch GET 200 https://registry.npmjs.org/node-fetch 137ms (cache revalidated)
+105 silly packumentCache full:https://registry.npmjs.org/node-fetch set size:896010 disposed:false
+106 http fetch GET 200 https://registry.npmjs.org/jwa 45ms (cache revalidated)
+107 silly packumentCache full:https://registry.npmjs.org/jwa set size:39956 disposed:false
+108 silly placeDep ROOT safe-buffer@5.2.1 OK for: ecdsa-sig-formatter@1.0.11 want: ^5.0.1
+109 silly fetch manifest encoding@^0.1.0
+110 silly packumentCache full:https://registry.npmjs.org/encoding cache-miss
+111 http fetch GET 200 https://registry.npmjs.org/encoding 31ms (cache miss)
+112 silly packumentCache full:https://registry.npmjs.org/encoding set size:undefined disposed:false
+113 silly placeDep ROOT extend@3.0.2 OK for: gaxios@6.7.1 want: ^3.0.2
+114 silly placeDep ROOT https-proxy-agent@7.0.6 OK for: gaxios@6.7.1 want: ^7.0.1
+115 silly placeDep ROOT is-stream@2.0.1 OK for: gaxios@6.7.1 want: ^2.0.0
+116 silly placeDep ROOT node-fetch@2.7.0 OK for: gaxios@6.7.1 want: ^2.6.9
+117 silly placeDep node_modules/gaxios uuid@9.0.1 OK for: gaxios@6.7.1 want: ^9.0.1
+118 silly fetch manifest agent-base@^7.1.2
+119 silly packumentCache full:https://registry.npmjs.org/agent-base cache-miss
+120 silly fetch manifest debug@4
+121 silly packumentCache full:https://registry.npmjs.org/debug cache-miss
+122 http fetch GET 200 https://registry.npmjs.org/agent-base 28ms (cache revalidated)
+123 silly packumentCache full:https://registry.npmjs.org/agent-base set size:67460 disposed:false
+124 silly fetch manifest whatwg-url@^5.0.0
+125 silly packumentCache full:https://registry.npmjs.org/whatwg-url cache-miss
+126 http fetch GET 200 https://registry.npmjs.org/debug 53ms (cache revalidated)
+127 silly packumentCache full:https://registry.npmjs.org/debug set size:193521 disposed:false
+128 http fetch GET 200 https://registry.npmjs.org/whatwg-url 33ms (cache miss)
+129 silly packumentCache full:https://registry.npmjs.org/whatwg-url set size:undefined disposed:false
+130 silly placeDep ROOT google-logging-utils@0.0.2 OK for: gcp-metadata@6.1.1 want: ^0.0.2
+131 silly placeDep ROOT json-bigint@1.0.0 OK for: gcp-metadata@6.1.1 want: ^1.0.0
+132 silly fetch manifest bignumber.js@^9.0.0
+133 silly packumentCache full:https://registry.npmjs.org/bignumber.js cache-miss
+134 http fetch GET 200 https://registry.npmjs.org/bignumber.js 47ms (cache revalidated)
+135 silly packumentCache full:https://registry.npmjs.org/bignumber.js set size:123203 disposed:false
+136 silly placeDep ROOT qs@6.14.0 OK for: googleapis-common@7.2.0 want: ^6.7.0
+137 silly placeDep ROOT url-template@2.0.8 OK for: googleapis-common@7.2.0 want: ^2.0.8
+138 silly placeDep node_modules/googleapis-common uuid@9.0.1 OK for: googleapis-common@7.2.0 want: ^9.0.0
+139 silly fetch manifest side-channel@^1.1.0
+140 silly packumentCache full:https://registry.npmjs.org/side-channel cache-miss
+141 http fetch GET 200 https://registry.npmjs.org/side-channel 35ms (cache revalidated)
+142 silly packumentCache full:https://registry.npmjs.org/side-channel set size:24660 disposed:false
+143 silly placeDep ROOT agent-base@7.1.4 OK for: https-proxy-agent@7.0.6 want: ^7.1.2
+144 silly placeDep ROOT debug@4.4.1 OK for: https-proxy-agent@7.0.6 want: 4
+145 silly fetch manifest ms@^2.1.3
+146 silly packumentCache full:https://registry.npmjs.org/ms cache-miss
+147 http fetch GET 200 https://registry.npmjs.org/ms 35ms (cache revalidated)
+148 silly packumentCache full:https://registry.npmjs.org/ms set size:84883 disposed:false
+149 silly placeDep ROOT ms@2.1.3 OK for: debug@4.4.1 want: ^2.1.3
+150 silly placeDep ROOT bignumber.js@9.3.1 OK for: json-bigint@1.0.0 want: ^9.0.0
+151 silly placeDep ROOT jwa@2.0.1 OK for: jws@4.0.0 want: ^2.0.0
+152 silly fetch manifest buffer-equal-constant-time@^1.0.1
+153 silly packumentCache full:https://registry.npmjs.org/buffer-equal-constant-time cache-miss
+154 http fetch GET 200 https://registry.npmjs.org/buffer-equal-constant-time 36ms (cache revalidated)
+155 silly packumentCache full:https://registry.npmjs.org/buffer-equal-constant-time set size:4390 disposed:false
+156 silly placeDep ROOT buffer-equal-constant-time@1.0.1 OK for: jwa@2.0.1 want: ^1.0.1
+157 silly placeDep ROOT whatwg-url@5.0.0 OK for: node-fetch@2.7.0 want: ^5.0.0
+158 silly fetch manifest tr46@~0.0.3
+159 silly packumentCache full:https://registry.npmjs.org/tr46 cache-miss
+160 silly fetch manifest webidl-conversions@^3.0.0
+161 silly packumentCache full:https://registry.npmjs.org/webidl-conversions cache-miss
+162 http fetch GET 200 https://registry.npmjs.org/webidl-conversions 40ms (cache miss)
+163 silly packumentCache full:https://registry.npmjs.org/webidl-conversions set size:undefined disposed:false
+164 http fetch GET 200 https://registry.npmjs.org/tr46 42ms (cache miss)
+165 silly packumentCache full:https://registry.npmjs.org/tr46 set size:undefined disposed:false
+166 silly placeDep ROOT side-channel@1.1.0 OK for: qs@6.14.0 want: ^1.1.0
+167 silly fetch manifest object-inspect@^1.13.3
+168 silly packumentCache full:https://registry.npmjs.org/object-inspect cache-miss
+169 silly fetch manifest side-channel-list@^1.0.0
+170 silly packumentCache full:https://registry.npmjs.org/side-channel-list cache-miss
+171 http fetch GET 200 https://registry.npmjs.org/object-inspect 31ms (cache revalidated)
+172 silly packumentCache full:https://registry.npmjs.org/object-inspect set size:101912 disposed:false
+173 silly fetch manifest side-channel-map@^1.0.1
+174 silly packumentCache full:https://registry.npmjs.org/side-channel-map cache-miss
+175 http fetch GET 200 https://registry.npmjs.org/side-channel-list 36ms (cache revalidated)
+176 silly packumentCache full:https://registry.npmjs.org/side-channel-list set size:6005 disposed:false
+177 silly fetch manifest side-channel-weakmap@^1.0.2
+178 silly packumentCache full:https://registry.npmjs.org/side-channel-weakmap cache-miss
+179 http fetch GET 200 https://registry.npmjs.org/side-channel-weakmap 30ms (cache revalidated)
+180 silly packumentCache full:https://registry.npmjs.org/side-channel-weakmap set size:12620 disposed:false
+181 http fetch GET 200 https://registry.npmjs.org/side-channel-map 36ms (cache revalidated)
+182 silly packumentCache full:https://registry.npmjs.org/side-channel-map set size:9126 disposed:false
+183 silly placeDep ROOT object-inspect@1.13.4 OK for: side-channel@1.1.0 want: ^1.13.3
+184 silly placeDep ROOT side-channel-list@1.0.0 OK for: side-channel@1.1.0 want: ^1.0.0
+185 silly placeDep ROOT side-channel-map@1.0.1 OK for: side-channel@1.1.0 want: ^1.0.1
+186 silly placeDep ROOT side-channel-weakmap@1.0.2 OK for: side-channel@1.1.0 want: ^1.0.2
+187 silly fetch manifest call-bound@^1.0.2
+188 silly packumentCache full:https://registry.npmjs.org/call-bound cache-miss
+189 silly fetch manifest call-bound@^1.0.2
+190 silly packumentCache full:https://registry.npmjs.org/call-bound cache-miss
+191 http fetch GET 200 https://registry.npmjs.org/call-bound 30ms (cache revalidated)
+192 silly packumentCache full:https://registry.npmjs.org/call-bound set size:15317 disposed:false
+193 http fetch GET 200 https://registry.npmjs.org/call-bound 54ms (cache revalidated)
+194 silly packumentCache full:https://registry.npmjs.org/call-bound set size:15317 disposed:false
+195 silly packumentCache full:https://registry.npmjs.org/call-bound dispose
+196 silly placeDep ROOT call-bound@1.0.4 OK for: side-channel-map@1.0.1 want: ^1.0.2
+197 silly placeDep ROOT tr46@0.0.3 OK for: whatwg-url@5.0.0 want: ~0.0.3
+198 silly placeDep ROOT webidl-conversions@3.0.1 OK for: whatwg-url@5.0.0 want: ^3.0.0
+199 warn EBADENGINE Unsupported engine {
+199 warn EBADENGINE   package: 'fassto-api-gateway@3.0.0',
+199 warn EBADENGINE   required: { node: '20' },
+199 warn EBADENGINE   current: { node: 'v22.17.1', npm: '11.5.1' }
+199 warn EBADENGINE }
+200 silly reify mark retired [ '/home/natureskwy/fassto-fn/node_modules/data-uri-to-buffer' ]
+201 silly reify mark retired [ '/home/natureskwy/fassto-fn/node_modules/fetch-blob' ]
+202 silly reify mark retired [ '/home/natureskwy/fassto-fn/node_modules/formdata-polyfill' ]
+203 silly reify mark retired [ '/home/natureskwy/fassto-fn/node_modules/gaxios' ]
+204 silly reify mark retired [ '/home/natureskwy/fassto-fn/node_modules/gcp-metadata' ]
+205 silly reify mark retired [ '/home/natureskwy/fassto-fn/node_modules/google-auth-library' ]
+206 silly reify mark retired [ '/home/natureskwy/fassto-fn/node_modules/google-logging-utils' ]
+207 silly reify mark retired [ '/home/natureskwy/fassto-fn/node_modules/googleapis' ]
+208 silly reify mark retired [ '/home/natureskwy/fassto-fn/node_modules/googleapis-common' ]
+209 silly reify mark retired [ '/home/natureskwy/fassto-fn/node_modules/gtoken' ]
+210 silly reify mark retired [ '/home/natureskwy/fassto-fn/node_modules/node-domexception' ]
+211 silly reify mark retired [ '/home/natureskwy/fassto-fn/node_modules/node-fetch' ]
+212 silly reify mark retired [
+212 silly reify   '/home/natureskwy/fassto-fn/node_modules/uuid',
+212 silly reify   '/home/natureskwy/fassto-fn/node_modules/.bin/uuid'
+212 silly reify ]
+213 silly reify mark retired [ '/home/natureskwy/fassto-fn/node_modules/web-streams-polyfill' ]
+214 silly reify moves {
+214 silly reify   '/home/natureskwy/fassto-fn/node_modules/data-uri-to-buffer': '/home/natureskwy/fassto-fn/node_modules/.data-uri-to-buffer-r2fRxBii',
+214 silly reify   '/home/natureskwy/fassto-fn/node_modules/fetch-blob': '/home/natureskwy/fassto-fn/node_modules/.fetch-blob-3Z5nvLMs',
+214 silly reify   '/home/natureskwy/fassto-fn/node_modules/formdata-polyfill': '/home/natureskwy/fassto-fn/node_modules/.formdata-polyfill-dtPgVokh',
+214 silly reify   '/home/natureskwy/fassto-fn/node_modules/gaxios': '/home/natureskwy/fassto-fn/node_modules/.gaxios-hRFtldjS',
+214 silly reify   '/home/natureskwy/fassto-fn/node_modules/gcp-metadata': '/home/natureskwy/fassto-fn/node_modules/.gcp-metadata-g6bNNLJR',
+214 silly reify   '/home/natureskwy/fassto-fn/node_modules/google-auth-library': '/home/natureskwy/fassto-fn/node_modules/.google-auth-library-MKEEiyUf',
+214 silly reify   '/home/natureskwy/fassto-fn/node_modules/google-logging-utils': '/home/natureskwy/fassto-fn/node_modules/.google-logging-utils-IK1U6BpB',
+214 silly reify   '/home/natureskwy/fassto-fn/node_modules/googleapis': '/home/natureskwy/fassto-fn/node_modules/.googleapis-uNHMeaCw',
+214 silly reify   '/home/natureskwy/fassto-fn/node_modules/googleapis-common': '/home/natureskwy/fassto-fn/node_modules/.googleapis-common-CdpiuPde',
+214 silly reify   '/home/natureskwy/fassto-fn/node_modules/gtoken': '/home/natureskwy/fassto-fn/node_modules/.gtoken-8ECC3tRn',
+214 silly reify   '/home/natureskwy/fassto-fn/node_modules/node-domexception': '/home/natureskwy/fassto-fn/node_modules/.node-domexception-iHESz39c',
+214 silly reify   '/home/natureskwy/fassto-fn/node_modules/node-fetch': '/home/natureskwy/fassto-fn/node_modules/.node-fetch-XbIRcULD',
+214 silly reify   '/home/natureskwy/fassto-fn/node_modules/uuid': '/home/natureskwy/fassto-fn/node_modules/.uuid-1DT8I1tG',
+214 silly reify   '/home/natureskwy/fassto-fn/node_modules/.bin/uuid': '/home/natureskwy/fassto-fn/node_modules/.bin/.uuid-STWm2Ksa',
+214 silly reify   '/home/natureskwy/fassto-fn/node_modules/web-streams-polyfill': '/home/natureskwy/fassto-fn/node_modules/.web-streams-polyfill-1jOHVW3a'
+214 silly reify }
+215 silly audit bulk request {
+215 silly audit   asynckit: [ '0.4.0' ],
+215 silly audit   axios: [ '1.11.0' ],
+215 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+215 silly audit   'combined-stream': [ '1.0.8' ],
+215 silly audit   'delayed-stream': [ '1.0.0' ],
+215 silly audit   'dunder-proto': [ '1.0.1' ],
+215 silly audit   'es-define-property': [ '1.0.1' ],
+215 silly audit   'es-errors': [ '1.3.0' ],
+215 silly audit   'es-object-atoms': [ '1.1.1' ],
+215 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+215 silly audit   'follow-redirects': [ '1.15.11' ],
+215 silly audit   'form-data': [ '4.0.4' ],
+215 silly audit   'function-bind': [ '1.1.2' ],
+215 silly audit   'get-intrinsic': [ '1.3.0' ],
+215 silly audit   'get-proto': [ '1.0.1' ],
+215 silly audit   gopd: [ '1.2.0' ],
+215 silly audit   'has-symbols': [ '1.1.0' ],
+215 silly audit   'has-tostringtag': [ '1.0.2' ],
+215 silly audit   hasown: [ '2.0.2' ],
+215 silly audit   'math-intrinsics': [ '1.1.0' ],
+215 silly audit   'mime-db': [ '1.52.0' ],
+215 silly audit   'mime-types': [ '2.1.35' ],
+215 silly audit   'proxy-from-env': [ '1.1.0' ],
+215 silly audit   uuid: [ '9.0.1' ],
+215 silly audit   googleapis: [ '137.1.0' ],
+215 silly audit   'google-auth-library': [ '9.15.1' ],
+215 silly audit   'googleapis-common': [ '7.2.0' ],
+215 silly audit   'base64-js': [ '1.5.1' ],
+215 silly audit   'ecdsa-sig-formatter': [ '1.0.11' ],
+215 silly audit   gaxios: [ '6.7.1' ],
+215 silly audit   'gcp-metadata': [ '6.1.1' ],
+215 silly audit   gtoken: [ '7.1.0' ],
+215 silly audit   jws: [ '4.0.0' ],
+215 silly audit   'safe-buffer': [ '5.2.1' ],
+215 silly audit   extend: [ '3.0.2' ],
+215 silly audit   'https-proxy-agent': [ '7.0.6' ],
+215 silly audit   'is-stream': [ '2.0.1' ],
+215 silly audit   'node-fetch': [ '2.7.0' ],
+215 silly audit   'google-logging-utils': [ '0.0.2' ],
+215 silly audit   'json-bigint': [ '1.0.0' ],
+215 silly audit   qs: [ '6.14.0' ],
+215 silly audit   'url-template': [ '2.0.8' ],
+215 silly audit   'agent-base': [ '7.1.4' ],
+215 silly audit   debug: [ '4.4.1' ],
+215 silly audit   ms: [ '2.1.3' ],
+215 silly audit   'bignumber.js': [ '9.3.1' ],
+215 silly audit   jwa: [ '2.0.1' ],
+215 silly audit   'buffer-equal-constant-time': [ '1.0.1' ],
+215 silly audit   'whatwg-url': [ '5.0.0' ],
+215 silly audit   'side-channel': [ '1.1.0' ],
+215 silly audit   'object-inspect': [ '1.13.4' ],
+215 silly audit   'side-channel-list': [ '1.0.0' ],
+215 silly audit   'side-channel-map': [ '1.0.1' ],
+215 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+215 silly audit   'call-bound': [ '1.0.4' ],
+215 silly audit   tr46: [ '0.0.3' ],
+215 silly audit   'webidl-conversions': [ '3.0.1' ]
+215 silly audit }
+216 http cache webidl-conversions@https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-3.0.1.tgz 0ms (cache hit)
+217 http cache tr46@https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz 0ms (cache hit)
+218 http cache whatwg-url@https://registry.npmjs.org/whatwg-url/-/whatwg-url-5.0.0.tgz 0ms (cache hit)
+219 http cache is-stream@https://registry.npmjs.org/is-stream/-/is-stream-2.0.1.tgz 0ms (cache hit)
+220 http cache node-fetch@https://registry.npmjs.org/node-fetch/-/node-fetch-2.7.0.tgz 0ms (cache hit)
+221 http cache googleapis-common@https://registry.npmjs.org/googleapis-common/-/googleapis-common-7.2.0.tgz 0ms (cache hit)
+222 http cache googleapis@https://registry.npmjs.org/googleapis/-/googleapis-137.1.0.tgz 0ms (cache hit)
+223 http cache gtoken@https://registry.npmjs.org/gtoken/-/gtoken-7.1.0.tgz 0ms (cache hit)
+224 http cache google-logging-utils@https://registry.npmjs.org/google-logging-utils/-/google-logging-utils-0.0.2.tgz 0ms (cache hit)
+225 http cache google-auth-library@https://registry.npmjs.org/google-auth-library/-/google-auth-library-9.15.1.tgz 0ms (cache hit)
+226 http cache gcp-metadata@https://registry.npmjs.org/gcp-metadata/-/gcp-metadata-6.1.1.tgz 0ms (cache hit)
+227 http cache gaxios@https://registry.npmjs.org/gaxios/-/gaxios-6.7.1.tgz 0ms (cache hit)
+228 http cache uuid@https://registry.npmjs.org/uuid/-/uuid-9.0.1.tgz 0ms (cache hit)
+229 http cache uuid@https://registry.npmjs.org/uuid/-/uuid-9.0.1.tgz 0ms (cache hit)
+230 silly tarball no local data for webidl-conversions@https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-3.0.1.tgz. Extracting by manifest.
+231 silly tarball no local data for tr46@https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz. Extracting by manifest.
+232 silly tarball no local data for whatwg-url@https://registry.npmjs.org/whatwg-url/-/whatwg-url-5.0.0.tgz. Extracting by manifest.
+233 silly tarball no local data for is-stream@https://registry.npmjs.org/is-stream/-/is-stream-2.0.1.tgz. Extracting by manifest.
+234 silly tarball no local data for node-fetch@https://registry.npmjs.org/node-fetch/-/node-fetch-2.7.0.tgz. Extracting by manifest.
+235 silly tarball no local data for googleapis-common@https://registry.npmjs.org/googleapis-common/-/googleapis-common-7.2.0.tgz. Extracting by manifest.
+236 silly tarball no local data for googleapis@https://registry.npmjs.org/googleapis/-/googleapis-137.1.0.tgz. Extracting by manifest.
+237 silly tarball no local data for gtoken@https://registry.npmjs.org/gtoken/-/gtoken-7.1.0.tgz. Extracting by manifest.
+238 silly tarball no local data for google-logging-utils@https://registry.npmjs.org/google-logging-utils/-/google-logging-utils-0.0.2.tgz. Extracting by manifest.
+239 silly tarball no local data for google-auth-library@https://registry.npmjs.org/google-auth-library/-/google-auth-library-9.15.1.tgz. Extracting by manifest.
+240 silly tarball no local data for gcp-metadata@https://registry.npmjs.org/gcp-metadata/-/gcp-metadata-6.1.1.tgz. Extracting by manifest.
+241 silly tarball no local data for gaxios@https://registry.npmjs.org/gaxios/-/gaxios-6.7.1.tgz. Extracting by manifest.
+242 silly tarball no local data for uuid@https://registry.npmjs.org/uuid/-/uuid-9.0.1.tgz. Extracting by manifest.
+243 silly tarball no local data for uuid@https://registry.npmjs.org/uuid/-/uuid-9.0.1.tgz. Extracting by manifest.
+244 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 256ms
+245 silly audit report {}
+246 http fetch GET 200 https://registry.npmjs.org/is-stream/-/is-stream-2.0.1.tgz 280ms (cache miss)
+247 http fetch GET 200 https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-3.0.1.tgz 286ms (cache miss)
+248 http fetch GET 200 https://registry.npmjs.org/whatwg-url/-/whatwg-url-5.0.0.tgz 319ms (cache miss)
+249 http fetch GET 200 https://registry.npmjs.org/gtoken/-/gtoken-7.1.0.tgz 317ms (cache miss)
+250 http fetch GET 200 https://registry.npmjs.org/google-logging-utils/-/google-logging-utils-0.0.2.tgz 333ms (cache miss)
+251 http fetch GET 200 https://registry.npmjs.org/gcp-metadata/-/gcp-metadata-6.1.1.tgz 336ms (cache miss)
+252 http fetch GET 200 https://registry.npmjs.org/googleapis-common/-/googleapis-common-7.2.0.tgz 354ms (cache miss)
+253 http fetch GET 200 https://registry.npmjs.org/node-fetch/-/node-fetch-2.7.0.tgz 359ms (cache miss)
+254 http fetch GET 200 https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz 364ms (cache miss)
+255 http fetch GET 200 https://registry.npmjs.org/gaxios/-/gaxios-6.7.1.tgz 359ms (cache miss)
+256 http fetch GET 200 https://registry.npmjs.org/uuid/-/uuid-9.0.1.tgz 403ms (cache miss)
+257 http fetch GET 200 https://registry.npmjs.org/uuid/-/uuid-9.0.1.tgz 405ms (cache miss)
+258 http fetch GET 200 https://registry.npmjs.org/google-auth-library/-/google-auth-library-9.15.1.tgz 427ms (cache miss)
+259 http fetch GET 200 https://registry.npmjs.org/googleapis/-/googleapis-137.1.0.tgz 2526ms (cache miss)
+260 silly ADD node_modules/webidl-conversions
+261 silly ADD node_modules/tr46
+262 silly ADD node_modules/whatwg-url
+263 silly ADD node_modules/is-stream
+264 silly REMOVE node_modules/web-streams-polyfill
+265 silly REMOVE node_modules/uuid
+266 silly CHANGE node_modules/node-fetch
+267 silly REMOVE node_modules/node-domexception
+268 silly CHANGE node_modules/gtoken
+269 silly CHANGE node_modules/googleapis-common
+270 silly ADD node_modules/googleapis-common/node_modules/uuid
+271 silly CHANGE node_modules/googleapis
+272 silly CHANGE node_modules/google-logging-utils
+273 silly CHANGE node_modules/google-auth-library
+274 silly CHANGE node_modules/gcp-metadata
+275 silly CHANGE node_modules/gaxios
+276 silly ADD node_modules/gaxios/node_modules/uuid
+277 silly REMOVE node_modules/formdata-polyfill
+278 silly REMOVE node_modules/fetch-blob
+279 silly REMOVE node_modules/data-uri-to-buffer
+280 verbose cwd /home/natureskwy/fassto-fn
+281 verbose os Linux 6.6.93+
+282 verbose node v22.17.1
+283 verbose npm  v11.5.1
+284 verbose exit 0
+285 info ok

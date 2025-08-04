@@ -1,0 +1,24 @@
+2025-08-01 14:09:33.053 [info] 
+
+
+
+
+2025-08-01 14:09:33.068 [info] Extension host agent started.
+2025-08-01 14:09:34.905 [info] [127.0.0.1][b361f26e][ManagementConnection] New connection established.
+2025-08-01 14:09:35.097 [info] [127.0.0.1][72529b2a][ExtensionHostConnection] New connection established.
+2025-08-01 14:09:36.071 [info] [127.0.0.1][72529b2a][ExtensionHostConnection] <1235> Launched Extension Host Process.
+2025-08-01 15:03:28.363 [info] [127.0.0.1][6a6c2996][ManagementConnection] New connection established.
+2025-08-01 15:03:28.589 [info] [127.0.0.1][52c0947a][ExtensionHostConnection] New connection established.
+2025-08-01 15:03:28.593 [info] [127.0.0.1][52c0947a][ExtensionHostConnection] <3010> Launched Extension Host Process.
+2025-08-01 15:03:32.132 [warning] RequestStore#acceptReply was called without receiving a matching request 13
+2025-08-01 15:03:32.132 [warning] RequestStore#acceptReply was called without receiving a matching request 14
+2025-08-01 15:03:32.133 [warning] RequestStore#acceptReply was called without receiving a matching request 15
+2025-08-01 15:03:32.133 [warning] RequestStore#acceptReply was called without receiving a matching request 16
+2025-08-01 15:03:32.133 [warning] RequestStore#acceptReply was called without receiving a matching request 17
+2025-08-01 15:03:32.133 [warning] RequestStore#acceptReply was called without receiving a matching request 18
+2025-08-01 15:03:32.134 [warning] RequestStore#acceptReply was called without receiving a matching request 19
+2025-08-01 15:03:32.134 [warning] RequestStore#acceptReply was called without receiving a matching request 20
+2025-08-01 15:03:32.134 [warning] RequestStore#acceptReply was called without receiving a matching request 21
+2025-08-01 15:03:32.134 [warning] RequestStore#acceptReply was called without receiving a matching request 22
+2025-08-01 15:03:32.135 [warning] RequestStore#acceptReply was called without receiving a matching request 23
+2025-08-01 15:03:32.135 [warning] RequestStore#acceptReply was called without receiving a matching request 24

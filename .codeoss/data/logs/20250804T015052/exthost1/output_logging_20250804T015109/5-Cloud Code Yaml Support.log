@@ -1,0 +1,1 @@
+[Error - 3:13:02 AM] Failed to load entities from /home/natureskwy/fassto-fn/node_modules/gaxios/build/esm/package.json: Error: ENOENT: no such file or directory, open '/home/natureskwy/fassto-fn/node_modules/gaxios/build/esm/package.json'

@@ -1,0 +1,2 @@
+[Error - 2:58:28 PM] Failed to load entities from /home/natureskwy/smartstore-fn/package.json: Error: ENOENT: no such file or directory, open '/home/natureskwy/smartstore-fn/package.json'
+[Error - 2:58:28 PM] Failed to load entities from /home/natureskwy/smartstore-fn/node_modules/axios/package.json: Error: ENOENT: no such file or directory, open '/home/natureskwy/smartstore-fn/node_modules/axios/package.json'

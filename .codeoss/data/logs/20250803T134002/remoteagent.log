@@ -1,0 +1,49 @@
+2025-08-03 13:40:03.128 [info] 
+
+
+
+
+2025-08-03 13:40:03.128 [info] Extension host agent started.
+2025-08-03 13:40:05.776 [info] [127.0.0.1][c9542723][ManagementConnection] New connection established.
+2025-08-03 13:40:05.975 [info] [127.0.0.1][1689150a][ExtensionHostConnection] New connection established.
+2025-08-03 13:40:06.835 [info] [127.0.0.1][1689150a][ExtensionHostConnection] <1257> Launched Extension Host Process.
+2025-08-03 14:04:47.273 [info] [127.0.0.1][e338bb35][ManagementConnection] New connection established.
+2025-08-03 14:04:47.477 [info] [127.0.0.1][3d2e5dbb][ExtensionHostConnection] New connection established.
+2025-08-03 14:04:47.482 [info] [127.0.0.1][3d2e5dbb][ExtensionHostConnection] <1460> Launched Extension Host Process.
+2025-08-03 14:05:24.513 [warning] RequestStore#acceptReply was called without receiving a matching request 13
+2025-08-03 14:05:24.514 [warning] RequestStore#acceptReply was called without receiving a matching request 14
+2025-08-03 14:05:24.514 [warning] RequestStore#acceptReply was called without receiving a matching request 15
+2025-08-03 14:05:24.514 [warning] RequestStore#acceptReply was called without receiving a matching request 16
+2025-08-03 14:05:24.515 [warning] RequestStore#acceptReply was called without receiving a matching request 17
+2025-08-03 14:05:24.515 [warning] RequestStore#acceptReply was called without receiving a matching request 18
+2025-08-03 14:05:24.515 [warning] RequestStore#acceptReply was called without receiving a matching request 19
+2025-08-03 14:05:24.515 [warning] RequestStore#acceptReply was called without receiving a matching request 20
+2025-08-03 14:05:24.515 [warning] RequestStore#acceptReply was called without receiving a matching request 21
+2025-08-03 14:05:24.515 [warning] RequestStore#acceptReply was called without receiving a matching request 22
+2025-08-03 14:05:24.515 [warning] RequestStore#acceptReply was called without receiving a matching request 23
+2025-08-03 14:05:24.515 [warning] RequestStore#acceptReply was called without receiving a matching request 24
+2025-08-03 14:58:28.314 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-08-03 14:58:28.336 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-08-03 15:03:03.517 [info] [127.0.0.1][e338bb35][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-08-03 15:03:03.776 [info] [127.0.0.1][3d2e5dbb][ExtensionHostConnection] <1460> Extension Host Process exited with code: 0, signal: null.
+2025-08-03 15:03:18.265 [info] [127.0.0.1][02e9690c][ManagementConnection] New connection established.
+2025-08-03 15:03:18.485 [info] [127.0.0.1][ef6d8abc][ExtensionHostConnection] New connection established.
+2025-08-03 15:03:18.491 [info] [127.0.0.1][ef6d8abc][ExtensionHostConnection] <2822> Launched Extension Host Process.
+2025-08-03 15:03:24.647 [warning] RequestStore#acceptReply was called without receiving a matching request 25
+2025-08-03 15:03:24.648 [warning] RequestStore#acceptReply was called without receiving a matching request 26
+2025-08-03 15:03:24.648 [warning] RequestStore#acceptReply was called without receiving a matching request 27
+2025-08-03 15:03:24.648 [warning] RequestStore#acceptReply was called without receiving a matching request 28
+2025-08-03 15:03:24.648 [warning] RequestStore#acceptReply was called without receiving a matching request 29
+2025-08-03 15:03:24.648 [warning] RequestStore#acceptReply was called without receiving a matching request 30
+2025-08-03 15:03:24.648 [warning] RequestStore#acceptReply was called without receiving a matching request 31
+2025-08-03 15:03:24.648 [warning] RequestStore#acceptReply was called without receiving a matching request 32
+2025-08-03 15:03:24.648 [warning] RequestStore#acceptReply was called without receiving a matching request 33
+2025-08-03 15:03:24.648 [warning] RequestStore#acceptReply was called without receiving a matching request 34
+2025-08-03 15:03:24.648 [warning] RequestStore#acceptReply was called without receiving a matching request 35
+2025-08-03 15:03:24.648 [warning] RequestStore#acceptReply was called without receiving a matching request 36
+2025-08-03 15:03:57.737 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-08-03 15:38:25.208 [info] [127.0.0.1][02e9690c][ManagementConnection] The client has reconnected.
+2025-08-03 15:38:25.556 [info] [127.0.0.1][ef6d8abc][ExtensionHostConnection] The client has reconnected.
+2025-08-03 15:38:25.920 [info] [127.0.0.1][1689150a][ExtensionHostConnection] The client has reconnected.
+2025-08-03 15:38:26.268 [info] [127.0.0.1][c9542723][ManagementConnection] The client has reconnected.
+2025-08-03 15:44:43.007 [info] [127.0.0.1][ef6d8abc][ExtensionHostConnection] The client has reconnected.

@@ -1,0 +1,31 @@
+2025-08-02 01:16:48.788 [info] Extension host with pid 4630 started
+2025-08-02 01:16:48.806 [info] Lock '/home/natureskwy/.codeoss/data/User/workspaceStorage/222feb2c/vscode.lock': Lock acquired.
+2025-08-02 01:16:49.486 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onView:cloudcode.gemini.chatView'
+2025-08-02 01:16:49.487 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-08-02 01:16:49.488 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-08-02 01:16:49.488 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-08-02 01:16:49.488 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-08-02 01:16:49.489 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2025-08-02 01:16:49.489 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-08-02 01:16:51.993 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-08-02 01:16:52.250 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-08-02 01:16:52.251 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-08-02 01:16:52.669 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onCommand:cloudshell.isAuthorized'
+2025-08-02 01:16:52.868 [info] Eager extensions activated
+2025-08-02 01:16:52.869 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2025-08-02 01:16:52.869 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-08-02 01:16:52.870 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-08-02 01:16:53.525 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2025-08-02 01:33:38.962 [info] Extension host terminating: received terminate message from renderer
+2025-08-02 01:33:38.963 [info] Lock '/home/natureskwy/.codeoss/data/User/workspaceStorage/222feb2c/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-08-02 01:33:39.008 [error] [vscode.json-language-features] provider FAILED
+2025-08-02 01:33:39.021 [error] Error: Channel has been closed
+    at s (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:117:2431)
+    at Object.appendLine (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:117:2570)
+    at R.logOutputMessage (/google/devshell/editor/code-oss-for-cloud-shell/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:316522)
+    at R.error (/google/devshell/editor/code-oss-for-cloud-shell/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:316413)
+    at R.handleFailedRequest (/google/devshell/editor/code-oss-for-cloud-shell/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:340282)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:362231
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Gb.provideColors (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:135:155728)
+2025-08-02 01:33:39.033 [info] Extension host with pid 4630 exiting with code 0

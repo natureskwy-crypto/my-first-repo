@@ -1,0 +1,17 @@
+{
+  "name": "fassto-data-fetcher",
+  "version": "1.2.0",
+  "description": "Robust Fassto delivery fetcher with retries and structured logging",
+  "main": "index.js",
+  "type": "commonjs",
+  "engines": {
+    "node": "20.x"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "googleapis": "^133.0.0",
+    "uuid": "^9.0.0",
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2"
+  }
+}

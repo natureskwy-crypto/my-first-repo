@@ -1,0 +1,16 @@
+{
+  "name": "fassto-data-fetcher",
+  "version": "1.0.0",
+  "description": "Google Cloud Function to fetch data from Fassto API and log it to Google Sheets.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "googleapis": "^128.0.0"
+  },
+  "engines": {
+    "node": "16" // 또는 "18", "20" 등 지원되는 Node.js 런타임 버전을 지정합니다.
+  }
+}

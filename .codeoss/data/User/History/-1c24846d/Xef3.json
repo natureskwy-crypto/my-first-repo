@@ -1,0 +1,17 @@
+{
+  "name": "fassto-api-gateway",
+  "version": "3.0.0",
+  "description": "A flexible Google Cloud Function to act as a gateway for various Fassto API calls from Google Apps Script.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "googleapis": "^137.1.0"
+  },
+  "engines": {
+    "node": "20"
+  }
+}
+
