@@ -1,0 +1,11 @@
+# dependencies
+node_modules/
+
+# 환경 변수 파일
+env.yaml
+
+# 로그
+npm-debug.log*
+
+# macOS, IDE 등 잡파일
+.DS_Store
