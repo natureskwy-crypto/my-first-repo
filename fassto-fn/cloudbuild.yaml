@@ -13,4 +13,6 @@ steps:
       - 'gcr.io/fassto-467707/fassto-fn:$SHORT_SHA'
 images:
   - 'gcr.io/fassto-467707/fassto-fn:$SHORT_SHA'
+options:
+  logging: CLOUD_LOGGING_ONLY
 timeout: '1200s'
