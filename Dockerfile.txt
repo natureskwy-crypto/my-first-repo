@@ -1,0 +1,20 @@
+# 공식 Node.js 이미지를 기반으로 시작합니다.
+FROM node:18-slim
+
+# 앱의 작업 디렉토리를 설정합니다.
+WORKDIR /app
+
+# 앱의 의존성 파일을 복사합니다.
+COPY package*.json ./
+
+# 의존성을 설치합니다.
+RUN npm install
+
+# 나머지 앱 소스 코드를 복사합니다.
+COPY . .
+
+# 앱이 사용할 포트를 지정합니다.
+EXPOSE 8080
+
+# 앱을 실행하는 명령어를 지정합니다.
+CMD ["node", "server.js"]
