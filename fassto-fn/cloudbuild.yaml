@@ -1,0 +1,16 @@
+steps:
+  # 1) Docker 이미지 빌드
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      - 'build'
+      - '-t'
+      - 'gcr.io/fassto-467707/fassto-fn:$SHORT_SHA'
+      - '.'
+  # 2) Registry에 푸시
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      - 'push'
+      - 'gcr.io/fassto-467707/fassto-fn:$SHORT_SHA'
+images:
+  - 'gcr.io/fassto-467707/fassto-fn:$SHORT_SHA'
+timeout: '1200s'
