@@ -1,0 +1,102 @@
+{
+ "duration": 15.033,
+ "clips": [
+  {
+   "src_start": 0.896,
+   "src_end": 2.934,
+   "tl_start": 0.0
+  },
+  {
+   "src_start": 3.348,
+   "src_end": 4.806,
+   "tl_start": 2.038
+  },
+  {
+   "src_start": 6.736,
+   "src_end": 7.837,
+   "tl_start": 3.496
+  },
+  {
+   "src_start": 8.126,
+   "src_end": 9.28,
+   "tl_start": 4.597
+  },
+  {
+   "src_start": 9.968,
+   "src_end": 10.99,
+   "tl_start": 5.751
+  },
+  {
+   "src_start": 11.603,
+   "src_end": 12.5,
+   "tl_start": 6.773
+  },
+  {
+   "src_start": 13.192,
+   "src_end": 14.2,
+   "tl_start": 7.67
+  },
+  {
+   "src_start": 17.625,
+   "src_end": 19.807,
+   "tl_start": 8.678
+  },
+  {
+   "src_start": 25.735,
+   "src_end": 28.631,
+   "tl_start": 10.86
+  },
+  {
+   "src_start": 28.631,
+   "src_end": 29.908,
+   "tl_start": 13.756
+  }
+ ],
+ "subtitles": [
+  {
+   "text": "안녕하세요 H&B 그룹",
+   "start": 0.15,
+   "end": 2.188
+  },
+  {
+   "text": "대표 케비로우입니다",
+   "start": 2.188,
+   "end": 3.646
+  },
+  {
+   "text": "저는 지금 클로드",
+   "start": 3.646,
+   "end": 5.901
+  },
+  {
+   "text": "컷 편집, 자막",
+   "start": 5.901,
+   "end": 7.82
+  },
+  {
+   "text": "그리고 효과음 등등을",
+   "start": 7.82,
+   "end": 9.857
+  },
+  {
+   "text": "체크하고 있습니다",
+   "start": 9.857,
+   "end": 11.01
+  },
+  {
+   "text": "수정이 다 되면",
+   "start": 11.01,
+   "end": 11.985
+  },
+  {
+   "text": "어떤 식으로 이루어질지",
+   "start": 11.985,
+   "end": 13.899
+  },
+  {
+   "text": "보겠습니다",
+   "start": 13.899,
+   "end": 15.033
+  }
+ ]
+}
